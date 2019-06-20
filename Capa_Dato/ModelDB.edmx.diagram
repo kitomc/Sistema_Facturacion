@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d6f8db46c13e4d07a5d61097ea7c4a32" Name="Diagram1">
+        <EntityTypeShape EntityType="Sistema_FacturacionModel.Cliente" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_FacturacionModel.Factura" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Sistema_FacturacionModel.Producto" Width="1.5" PointX="7" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="Sistema_FacturacionModel.FK_Factura_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="Sistema_FacturacionModel.FK_Factura_Producto" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
